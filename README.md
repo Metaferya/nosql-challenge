@@ -12,18 +12,18 @@ from pprint import pprint
 
 + Create an instance of MongoClient
 
-mongo = MongoClient(port=27017)
+  mongo = MongoClient(port=27017)
 
 + Assign the uk_food database to a variable name
 
-db = mongo['uk_food']
+  db = mongo['uk_food']
 
 + Review the collections in our database
 
-print(db.list_collection_names())
+  print(db.list_collection_names())
 
 + Assign the collection to a variable
 
-establishments = db['establishments']
+  establishments = db['establishments']
 
 
